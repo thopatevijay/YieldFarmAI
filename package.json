@@ -1,0 +1,20 @@
+{
+  "name": "yieldfarmai",
+  "version": "1.0.0",
+  "description": "YieldFarmAI is a sophisticated decentralized application (dApp) that leverages artificial intelligence to optimize yield farming strategies across various decentralized finance (DeFi) protocols. The platform integrates machine learning models to predict the most profitable yield farming pools based on real-time data analysis of factors such as total value locked, trading volume, and transaction fees.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.20.0",
+    "axios": "^1.7.2",
+    "graphql": "^16.8.2",
+    "graphql-request": "^7.0.1",
+    "graphql-tag": "^2.12.6",
+    "node-fetch": "^3.3.2"
+  }
+}
