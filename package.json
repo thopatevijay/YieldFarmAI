@@ -12,6 +12,7 @@
   "dependencies": {
     "@tensorflow/tfjs-node": "^4.20.0",
     "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
     "graphql": "^16.8.2",
     "graphql-request": "^7.0.1",
     "graphql-tag": "^2.12.6",
