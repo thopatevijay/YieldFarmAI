@@ -5,8 +5,7 @@ require('dotenv').config();
     const gql = require('graphql-tag');
     const fs = require('fs');
 
-    console.log(process.env.THE_GRAPH_API_KEY)
-    const endpoint = `https://gateway-arbitrum.network.thegraph.com/api/${process.env.THE_GRAPH_API_KEY}/subgraphs/id/5zvR82QoaXYFyDEKLZ9t6v9adgnptxYpKpSbxtgVENFV`;
+    const endpoint = `https://gateway-arbitrum.network.thegraph.com/api/df58df62e4ae10f75dbfc7041f35dccd/subgraphs/id/5zvR82QoaXYFyDEKLZ9t6v9adgnptxYpKpSbxtgVENFV`;
 
     const query = gql`
      {
