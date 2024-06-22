@@ -22,3 +22,32 @@ YieldFarmAI empowers decentralized finance participants with cutting-edge AI tec
 - **APIs:** GraphQL (for data fetching from DeFi platforms)
 - **Data Processing:** JavaScript (for data preprocessing)
 
+### To start project:
+
+```shell
+
+git clone https://github.com/thopatevijay/YieldFarmAI.git
+
+cd YieldFarmAI
+
+npm install
+
+# step 1 : Run the script to fetch yield farming data from Uniswap:
+node fetch_yeild_farming_data.js
+
+# step 2 : Run the script to preprocess the fetched yield data:
+node preprocess_yield_data.js
+
+# step 3 : Run the script to train the model based on the preprocessed data:
+node train_yield_model.js
+
+# step 4 : Run the script to predict the best yield farming pool:
+node predict_best_pool.js.
+
+# step 5 : Run the script to interact with contract
+node interact_to_contract.js
+
+
+#### Deployed contract address
+
+[0xafc2318b00b2021bfdb59110bc64666bcfc368fe](https://sepolia.explorer.mode.network/address/0xafc2318b00b2021bfdb59110bc64666bcfc368fe)
